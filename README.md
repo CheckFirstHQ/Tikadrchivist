@@ -32,9 +32,9 @@ Here follows the list of all the options you can use:
 
 | Parameter | Type | Description | Default |
 |-----------|------|-------------|---------|
-| `--query` | String | Search query string (eg : `"funny"` | ` ` |
+| `--query` | String | Search query string (eg : `"funny"`) | ` ` |
 | `--query_type` | String | The type of query (not used) | ` ` |
-| `--adv_biz_ids` | String | Search by ID of advertiser business | ` ` |
+| `--adv_biz_ids` | Array | Search by ID(s) of advertiser business(es) | ` ` |
 | `--order` | String | The order in which to return results (can be `impression,asc`, `impression,desc`, `last_shown_date,asc`, `last_shown_date,desc`, `create_time,asc` or `create_time,desc`) | `"impression,desc"` |
 | `--offset` | Integer | The number of results to offset (for pagination) | `0` |
 | `--search_id` | String | The ID of the search (not used) | ` ` |
