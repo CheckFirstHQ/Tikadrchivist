@@ -35,11 +35,11 @@ Here follows the list of all the options you can use:
 | `--query` | String | The search query | ` ` |
 | `--query_type` | String | The type of query | ` ` |
 | `--adv_biz_ids` | String | The ID(s) of the advertiser business(es) | ` ` |
-| `--order` | String | The order in which to return results | `"impression,desc"` |
+| `--order` | String | The order in which to return results (can be `impression,asc`, `impression,desc`, `last_shown_date,asc`, `last_shown_date,desc`, `create_time,asc` or `create_time,desc`) | `"impression,desc"` |
 | `--offset` | Integer | The number of results to offset (for pagination) | `0` |
 | `--search_id` | String | The ID of the search | ` ` |
 | `--limit` | Integer | The maximum number of results to return | `100` |
-| `--region` | String | The region to search in | `BE` |
+| `--region` | String | The EU country to search in (or `all` for all countries) | `BE` |
 | `--start_time` | Integer | The start time for the search period (in Unix timestamp format) | `1664575200` |
 | `--end_time` | Integer | The end time for the search period (in Unix timestamp format) | `1689863218` |
 | `--output` | String | The output format (can be `json`, `total_value`, `total_impression`, or `dl_videos`) | `json` |
