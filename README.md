@@ -32,12 +32,12 @@ Here follows the list of all the options you can use:
 
 | Parameter | Type | Description | Default |
 |-----------|------|-------------|---------|
-| `--query` | String | The search query | ` ` |
-| `--query_type` | String | The type of query | ` ` |
-| `--adv_biz_ids` | String | The ID(s) of the advertiser business(es) | ` ` |
+| `--query` | String | Search query string (eg : `"funny"` | ` ` |
+| `--query_type` | String | The type of query (not used) | ` ` |
+| `--adv_biz_ids` | String | Search by ID of advertiser business | ` ` |
 | `--order` | String | The order in which to return results (can be `impression,asc`, `impression,desc`, `last_shown_date,asc`, `last_shown_date,desc`, `create_time,asc` or `create_time,desc`) | `"impression,desc"` |
 | `--offset` | Integer | The number of results to offset (for pagination) | `0` |
-| `--search_id` | String | The ID of the search | ` ` |
+| `--search_id` | String | The ID of the search (not used) | ` ` |
 | `--limit` | Integer | The maximum number of results to return | `100` |
 | `--region` | String | The EU country to search in (or `all` for all countries) | `BE` |
 | `--start_time` | Integer | The start time for the search period (in Unix timestamp format) | `1664575200` |
